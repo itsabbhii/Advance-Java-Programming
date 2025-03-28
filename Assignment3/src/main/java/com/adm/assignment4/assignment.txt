@@ -1,0 +1,4 @@
+1.  Write a servlet program to select the details of an employee (emp id, empname, empadd,empphone) and display on browser in appropriate format.
+2.	Assume four users user1, user2, user3 and user4 having the passwords pwd1, pwd2, pwd3 and pwd4 respectively. Write a servlet for doing the following. Create a Cookie and add these four-user id’s and passwords to this Cookie. 2. Read the user id and passwords entered in the Login form and authenticate with the values available in the cookies.
+3.	Design a simple application program using Servlet and Database 1. Simple login form 2. Customer Feedback Form 3. Admission Form 4. Student Mark Sheet
+4.	Create a registration form and display the values entered by the user in another page using servlets.
