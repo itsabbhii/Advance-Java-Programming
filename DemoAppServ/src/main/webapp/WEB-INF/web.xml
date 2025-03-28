@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>DemoAppServ</display-name>
+  <!-- 
+  <servlet>
+  <servlet-name>serv1</servlet-name>
+  <servlet-class>com.adm.AddServletDispatcher</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv1</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv3</servlet-name>
+  <servlet-class>com.adm.AddServletRedirect</servlet-class>
+  </servlet>
+ 
+  <servlet-mapping>
+  <servlet-name>serv3</servlet-name>
+  <url-pattern>/add2</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv2</servlet-name>
+  <servlet-class>com.adm.SquareServletDispatcher</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv2</servlet-name>
+  <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv4</servlet-name>
+  <servlet-class>com.adm.SquareServletRedirect</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv4</servlet-name>
+  <url-pattern>/sq2</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>serv5</servlet-name>
+  <servlet-class>com.adm.DetailsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv5</servlet-name>
+  <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>serv6</servlet-name>
+  <servlet-class>com.adm.PrintDetailsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv6</servlet-name>
+  <url-pattern>/print</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv7</servlet-name>
+  <servlet-class>com.adm.AddServletSession</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv7</servlet-name>
+  <url-pattern>/addses</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv8</servlet-name>
+  <servlet-class>com.adm.SquareServletSession</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv8</servlet-name>
+  <url-pattern>/sqses</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>serv9</servlet-name>
+  <servlet-class>com.adm.AddServletCookie</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv9</servlet-name>
+  <url-pattern>/addcook</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>serv10</servlet-name>
+  <servlet-class>com.adm.SquareServletCookie</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>serv10</servlet-name>
+  <url-pattern>/sqcook</url-pattern>
+  </servlet-mapping> 
+  
+  -->
+  
+</web-app>
