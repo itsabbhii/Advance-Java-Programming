@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Attendance</title>
+</head>
+<body>
+    <h2>Mark Attendance</h2>
+    <form action="AttendanceServlet" method="post">
+        Employee ID: <input type="text" name="empId" required><br><br>
+        Employee Name: <input type="text" name="empName" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    
+    <h1>Get Attendance</h1>
+    <form action = "AttendanceServlet" method = "get"><button>Fetch</button></form>
+</body>
+</html>
