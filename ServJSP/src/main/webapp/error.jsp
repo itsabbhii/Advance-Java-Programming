@@ -2,6 +2,13 @@
     pageEncoding="UTF-8"%>
 <%@ page isErrorPage = "true" %>
 
-<h1>ZeroDivisionException occurred</h1>
+<h1>Exception occurred</h1>
 
-<h2>Divisor can not be zero</h2>
+
+
+
+<pre>
+<%
+    exception.printStackTrace(new java.io.PrintWriter(out));
+%>
+</pre>
