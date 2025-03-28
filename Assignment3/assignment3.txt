@@ -1,0 +1,6 @@
+1.	Write a servlet program to select the details of an employee (emp id, empname, empadd,empphone) and display on browser in appropriate format.
+2.	Write a GenericServlet to handle employee registration. The servlet should: Accept employee details (name, email, designation, salary) via a form (POST request).Store the details in a database (use JDBC). Display a success message after successful insertion.
+3.	 Write a program to add any data on cookies and also access these data from cookies.
+4.	The HR department wants an attendance system where employees can mark their attendance and view the records.
+	Task:
+	Write an HttpServlet that:Accepts Employee Name & ID via a form (POST request).Stores attendance details in a session variable or ArrayList.When accessed via a GET request, displays a list of employees who have marked attendance
