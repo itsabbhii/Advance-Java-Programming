@@ -11,5 +11,7 @@ public class App
     	c.drive();
     	Vehicle b = new Bike();// using xml configuration
     	b.drive();
+    	Tyre tyre = (Tyre) context.getBean("tyre");
+    	System.out.println(tyre);
     }
 }
