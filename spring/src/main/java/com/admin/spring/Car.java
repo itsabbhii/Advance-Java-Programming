@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component("car") // Non capitalize and non qualified reference is created 
 public class Car implements Vehicle {
-	@Autowired // returns the control back to previous class from another classs
+	@Autowired // access objects of a class in another class
 	private Tyre tyre;
 	
 	public Tyre getTyre() {
