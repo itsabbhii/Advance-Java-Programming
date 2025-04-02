@@ -20,8 +20,8 @@
     -->
     
     <bean id = "tyre" class = "com.admin.spring.Tyre">
-    <!-- <property name="brand" value = "MRF"></property>  -->
-    <constructor-arg value = "CEAT"></constructor-arg>
+<!--     <property name="brand" value = "MRF"></property> 
+ -->    <constructor-arg value = "CEAT"></constructor-arg>
     </bean>
 
 </beans>

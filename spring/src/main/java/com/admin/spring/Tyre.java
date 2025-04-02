@@ -1,5 +1,8 @@
 package com.admin.spring;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Tyre {
 	public Tyre(String brand) {
 		super();
@@ -18,7 +21,8 @@ public class Tyre {
 
 	@Override
 	public String toString() {
-		return "Tyre [brand=" + brand + "]";
+		return "'" + brand + "'";
+//		return "Tyre";
 	}
 
 }
