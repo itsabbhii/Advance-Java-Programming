@@ -20,7 +20,7 @@
     -->
     
     <bean id = "tyre" class = "com.admin.spring.Tyre">
-    <property name="brand" value = "MRF"></property>
+    <property name="brand" value = "MRF"></property> 
     </bean>
 
 </beans>
