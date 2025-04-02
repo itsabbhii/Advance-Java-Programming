@@ -7,9 +7,9 @@ public class App
     public static void main( String[] args )
     {
     	ApplicationContext context = new ClassPathXmlApplicationContext("spring.xml");
-    	Vehicle c = (Vehicle) context.getBean("car");
+    	Vehicle c = (Vehicle) context.getBean("car"); // using annotation
     	c.drive();
-    	Vehicle b = new Bike();
+    	Vehicle b = new Bike();// using xml configuration
     	b.drive();
     }
 }
