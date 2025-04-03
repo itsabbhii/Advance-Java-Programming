@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1>in Display</h1>
+Result is <%=request.getAttribute("result") %>
 </body>
 </html>
