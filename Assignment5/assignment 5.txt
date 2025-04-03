@@ -1,0 +1,7 @@
+HomeAssignment 5
+1. Write a JSP program to Print current date & time.
+2. Write a JSP program for basic arithmetic functions.
+3. Write a JSP program to display Strings.
+4. Write a JSP program to show and display at least 3 active control.
+5. Write a JSP program to upload file into server.
+6. Write a JSP program count no.  of visitors on website.
