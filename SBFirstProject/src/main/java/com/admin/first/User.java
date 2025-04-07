@@ -1,5 +1,6 @@
 package com.admin.first;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -7,6 +8,9 @@ public class User {
 	private String uname;
 	private String tech;
 	private int uid;
+	
+	@Autowired
+	private Laptop laptop;
 	
 	@Override
 	public String toString() {
@@ -31,12 +35,17 @@ public class User {
 		this.uid = uid;
 	}
 	public void show() {
-		// TODO Auto-generated method stub
 		System.out.println("In show");
+		laptop.compile();
 	}
 	public User() {
 		super();
-		// TODO Auto-generated constructor stub
 		System.out.println("Object created");
+	}
+	public Laptop getLaptop() {
+		return laptop;
+	}
+	public void setLaptop(Laptop laptop) {
+		this.laptop = laptop;
 	}
 }

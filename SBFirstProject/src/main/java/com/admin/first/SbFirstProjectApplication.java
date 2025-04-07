@@ -10,7 +10,7 @@ public class SbFirstProjectApplication {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(SbFirstProjectApplication.class, args);
 		User u = context.getBean(User.class);
-		u.show();
+		u.show();		
 	}
 
 }
