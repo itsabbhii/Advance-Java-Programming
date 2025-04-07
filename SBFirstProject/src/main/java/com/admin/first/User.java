@@ -1,5 +1,8 @@
 package com.admin.first;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class User {
 	private String uname;
 	private String tech;
@@ -30,5 +33,10 @@ public class User {
 	public void show() {
 		// TODO Auto-generated method stub
 		System.out.println("In show");
+	}
+	public User() {
+		super();
+		// TODO Auto-generated constructor stub
+		System.out.println("Object created");
 	}
 }
