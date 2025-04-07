@@ -11,7 +11,6 @@ public class SbFirstProjectApplication {
 		ConfigurableApplicationContext context = SpringApplication.run(SbFirstProjectApplication.class, args);
 		User u = context.getBean(User.class);
 		u.show();
-		System.out.println("Running");
 	}
 
 }
