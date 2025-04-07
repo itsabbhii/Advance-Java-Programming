@@ -12,7 +12,7 @@ public class MyConfig {
 	@Bean
 	public InternalResourceViewResolver ViewResolver() {
 		InternalResourceViewResolver vr = new InternalResourceViewResolver();
-		vr.setPrefix("/WEB-INF/"); //Folder name
+		vr.setPrefix("/"); //Folder name
 		vr.setSuffix(".jsp"); // extensions
 		return vr;
 	}
