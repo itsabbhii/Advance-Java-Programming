@@ -13,7 +13,7 @@ import com.admin.service.AddService;
 @Controller
 public class AddController {
 	
-	@RequestMapping("/add")
+	
 //	public void add() {
 //		System.out.println("in add");
 //	}
@@ -38,7 +38,7 @@ public class AddController {
 //		mv.addObject("result", k);
 //		return mv;
 //	}
-	
+	@RequestMapping("/add")
 	public ModelAndView add(@RequestParam("t1") int i, @RequestParam("t2") int j) {//gets parameter from request i.e. index.jsp
 		AddService as = new AddService();
 		int k = as.add(i, j);
