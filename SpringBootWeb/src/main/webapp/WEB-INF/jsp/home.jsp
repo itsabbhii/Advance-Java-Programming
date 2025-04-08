@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+welcome ${ob.aid} ${ob.aname} ${ob.alang} 
 </body>
 </html>
