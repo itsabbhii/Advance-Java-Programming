@@ -15,5 +15,11 @@
 	
 	<input type = "submit" value ="register">
 	</form>
+	
+	<form action = "getAlien">
+	Enter id: <input type = "number" name = "aid"><br><br>
+	<input type = "submit" value ="Get Alien">
+	</form>
+	
 </body>
 </html>

@@ -3,6 +3,8 @@ package com.admin.jpah2.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import com.admin.jpah2.dao.AlienRepo;
 import com.admin.jpah2.model.Alien;
@@ -22,4 +24,13 @@ public class AlienController {
 		repo.save(alien);
 		return "home";
 	}
+	
+	@RequestMapping("/getAlien")
+	public ModelAndView getAlien(@RequestParam int aid) {
+		ModelAndView mv = new ModelAndView("showAlien");
+		Alien alien=repo.findById(aid).orElse(new Alien());
+		mv.addObject(alien);
+		return mv;
+	}
+	
 }
