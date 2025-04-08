@@ -1,5 +1,8 @@
 package com.admin.jpah2.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Alien {
 	private String aname;
 	private String alang;
