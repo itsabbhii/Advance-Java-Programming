@@ -1,5 +1,8 @@
 package com.admin.jpah2.controller;
 
-public class AlienController {
+import org.springframework.stereotype.Controller;
 
+@Controller
+public class AlienController {
+	
 }
