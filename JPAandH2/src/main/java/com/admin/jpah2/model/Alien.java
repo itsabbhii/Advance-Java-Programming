@@ -1,12 +1,14 @@
 package com.admin.jpah2.model;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 
 @Entity
 public class Alien {
+	@Id
+	private int aid;
 	private String aname;
 	private String alang;
-	private int aid;
 	public String getAname() {
 		return aname;
 	}
