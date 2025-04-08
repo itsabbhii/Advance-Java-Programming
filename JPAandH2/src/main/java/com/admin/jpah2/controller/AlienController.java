@@ -4,5 +4,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 public class AlienController {
-	
+	public String home() {
+		return "home.jsp";
+	}
 }
