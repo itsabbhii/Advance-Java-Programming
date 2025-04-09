@@ -6,15 +6,18 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.admin.jpah2.dao.AlienRepo;
 import com.admin.jpah2.model.Alien;
 
-@Controller
+@RestController
 public class AlienController {
 	@Autowired
 	AlienRepo repo;
@@ -24,10 +27,17 @@ public class AlienController {
 		return "home";
 	}
 	
-	@RequestMapping("/addAlien")
-	public String addAlien(Alien alien) {
+//	@RequestMapping("/addAlien")
+//	public String addAlien(Alien alien) {
+//		repo.save(alien);
+//		return "home";
+//	}
+	
+	@PostMapping("/alien")
+	@ResponseBody
+	public Alien addAlien(@RequestBody Alien alien) {
 		repo.save(alien);
-		return "home";
+		return alien;
 	}
 	
 	@RequestMapping("/getAlien")

@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.admin</groupId>
-	<artifactId>JPAandH2</artifactId>
+	<artifactId>Assessment2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JPAandH2</name>
+	<name>Assessment2</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -48,11 +48,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-		    <artifactId>jackson-dataformat-xml</artifactId>
-		    <version>2.18.3</version>
 		</dependency>
 		<dependency>
 		<groupId>org.apache.tomcat.embed</groupId>
